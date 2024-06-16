@@ -1,0 +1,103 @@
+{
+  "footerlogo": "assets/img/logo.png",
+  "footertext": "FutureTech is dedicated to providing innovative and reliable financial solutions to help you achieve your investment goals. With our state-of-the-art technology and expert guidance, we offer personalized investment plans designed for optimal growth and security. Join us in securing a prosperous future with smart, systematic investments.",
+  "socialicon": [
+    {
+      "icon": "fa fa-facebook-f",
+      "url": "https://www.facebook.com/codingeek.net/"
+    },
+    {
+      "icon": "fa fa-twitter",
+      "url": "https://twitter.com/codingeeknet"
+    },
+    {
+      "icon": "fa fa-linkedin",
+      "url": "https://www.linkedin.com/company/codingeek/about/"
+    },
+    {
+      "icon": "fa fa-pinterest",
+      "url": "https://www.pinterest.com/codingeek"
+    }
+  ],
+  "copyrighttext": "  © 2020, templates7theme . all right reserved",
+  "linkmenu": {
+    "title": "Links",
+    "links": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "About",
+        "url": "/about"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "/privacy"
+      },
+      {
+        "title": "FAQ",
+        "url": "/faq"
+      },
+      {
+        "title": "contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "aboutus": {
+    "title": "About Us",
+    "links": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "About",
+        "url": "/about"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "/privacy"
+      },
+      {
+        "title": "FAQ",
+        "url": "/faq"
+      },
+      {
+        "title": "contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "contactus": {
+    "title": "Contact Us",
+    "address": "Despandenagar near ashok nagar police station hubli",
+    "email": "katwevaibhav7@gmail.com",
+    "phone": "+91-7338506103"
+  },
+  "quicklink": {
+    "links": [
+      {
+        "title": "Home",
+        "url": "/home-v2"
+      },
+      {
+        "title": "Privecy",
+        "url": "/privacy"
+      },
+      {
+        "title": "Contact",
+        "url": "/contact"
+      },
+      {
+        "title": "About",
+        "url": "/about"
+      },
+      {
+        "title": "Investment",
+        "url": "/investment"
+      }
+    ]
+  }
+}

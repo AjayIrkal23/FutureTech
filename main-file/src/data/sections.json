@@ -1,0 +1,496 @@
+{
+  "banner": {
+    "subtitle": "We have 24/7 supported team",
+    "title": "Best Invest Company Since 2020",
+    "content": "look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+    "img": "assets/img/banner/02.png"
+  },
+  "bannerv2": {
+    "subtitle": "-Welcome to investon company",
+    "title": "Intelligent Plan For Your Business",
+    "content": "look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+    "img": "assets/img/banner/01.png",
+    "url": "/investment"
+  },
+  "bannerv3": {
+    "item": [
+      {
+        "subtitle": "-We are Business Management &amp; Investment Consultancy Firm",
+        "title": "Investment Plan.",
+        "number": "1",
+        "url": "/investment"
+      },
+      {
+        "subtitle": "-We are Business Management &amp; Investment Consultancy Firm",
+        "title": "Investment Plan.",
+        "number": "2",
+        "url": "/investment"
+      },
+      {
+        "subtitle": "-We are Business Management &amp; Investment Consultancy Firm",
+        "title": "Investment Plan.",
+        "number": "3",
+        "url": "/investment"
+      }
+    ]
+  },
+  "homevideo": {
+    "title": "The Most Reputable Source Of Investment.",
+    "subtitle": "Let’s explore the amazing offers",
+    "content": "Finums LTD is a financial investment company where you can be the part of its investment community worldwide.",
+    "video": "assets/video/investment.mp4",
+    "videourl": "https://www.youtube.com/watch?v=d0XKtUXgpOw",
+    "url": "/investment"
+  },
+  "slider": {
+    "items": [
+      {
+        "subtitle": "-Welcome to investon company",
+        "title": "Intelligent Plan For Your Business",
+        "content": "look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+        "img": "assets/img/banner/03.png",
+        "videourl": "https://www.youtube.com/watch?v=d0XKtUXgpOw",
+        "url": "/investment"
+      },
+      {
+        "subtitle": "-Welcome to investon company",
+        "title": "Intelligent Plan For Your Business",
+        "content": "look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+        "img": "assets/img/banner/04.png",
+        "videourl": "https://www.youtube.com/watch?v=d0XKtUXgpOw",
+        "url": "/investment"
+      },
+      {
+        "subtitle": "-Welcome to investon company",
+        "title": "Intelligent Plan For Your Business",
+        "content": "look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+        "img": "assets/img/banner/05.png",
+        "videourl": "https://www.youtube.com/watch?v=d0XKtUXgpOw",
+        "url": "/investment"
+      }
+    ]
+  },
+  "workprocessing": {
+    "icon": "assets/img/icon/01.png",
+    "title": "OPEN AN ACCOUNT",
+    "content": "You can open bank accounts entirely online, with no need for signatures or branch ... you can complete most banking tasks online—even opening your account....",
+    "url": "/investment",
+    "items": [
+      {
+        "icon": "assets/img/icon/02.png",
+        "title": "Deposit Amount",
+        "content": "Start investing on our platform by making your first deposit",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/04.png",
+        "title": "Earn Interest",
+        "content": "Earn 3% everymonth on our platform.... 3% will be credited to your account everymonth from the day you make your first deposit",
+        "url": "/investment"
+      }
+    ]
+  },
+  "workprocessingv2": {
+    "subtitle": "Invest Now",
+    "title": "How to Invest?",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover",
+    "items": [
+      {
+        "icon": "assets/img/icon/01.png",
+        "title": "OPEN AN ACCOUNT",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/02.png",
+        "title": "NO HIDDEN FEES",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/03.png",
+        "title": "REFERA FRIEND",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/04.png",
+        "title": "GIVE INTEREST",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/05.png",
+        "title": "GET DEPOSIT",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      },
+      {
+        "icon": "assets/img/icon/06.png",
+        "title": "UTILIZE MONEY",
+        "content": "Lorem ipsum dolor sit amet, consect adipisc elit. Proin ultricies vestibulum vebiben",
+        "url": "/investment"
+      }
+    ]
+  },
+  "investarea": {
+    "subtitle": "Invest Now",
+    "title": "Get Featured!",
+    "content": "Join our elite group of investors and see your name shine among our top clients. Make your first deposit today!",
+    "img": "assets/img/feature/02.png"
+  },
+  "investareav2": {
+    "subtitle": "Our Update",
+    "title": "Get Featured!",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many",
+    "img": "assets/img/feature/01.png"
+  },
+  "fanfact": {
+    "items": [
+      {
+        "icon": "assets/img/fact/01.png",
+        "title": "Total Members",
+        "number": "120"
+      },
+      {
+        "icon": "assets/img/fact/02.png",
+        "title": "Total Profits",
+        "number": "101595"
+      },
+      {
+        "icon": "assets/img/fact/01.png",
+        "title": "Total Deposited",
+        "number": "50000"
+      }
+    ]
+  },
+  "video": {
+    "subtitle": "Who We Are?",
+    "title": "About details",
+    "content": "FutureTech SIP is at the forefront of innovative investment solutions, specializing in Systematic Investment Plans (SIPs). Our mission is to make investing accessible, efficient, and rewarding for everyone.",
+    "img": "assets/img/feature/02.png",
+    "url": "/about",
+    "videourl": "https://www.youtube.com/embed/Wimkqo8gDZ0"
+  },
+  "videov2": {
+    "subtitle": "Who We Are?",
+    "title": "About details",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+    "img": "assets/img/video/01.png",
+    "url": "/about",
+    "videourl": "https://www.youtube.com/embed/Wimkqo8gDZ0"
+  },
+  "transaction": {
+    "subtitle": "Transaction Process",
+    "title": "Latest Transaction",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lore"
+  },
+  "whychooseus": {
+    "img": "assets/img/why-choose-us/01.png",
+    "items": [
+      {
+        "icon": "assets/img/icon/tree.png",
+        "title": "Stable & Profitable",
+        "number": "1",
+        "content": "Experienced business owners and managers know that 3 things are necessary to ensure the long- term success of any investments: growth, profit and stability"
+      },
+      {
+        "icon": "assets/img/icon/04.png",
+        "title": "Instant Withdraw",
+        "number": "2",
+        "content": "Withdrawal Speed: Up to 24 hours .General rules for depositing and withdrawing funds . If a deposit or withdrawal is not subject to instant execution"
+      },
+      {
+        "icon": "assets/img/icon/03.png",
+        "title": "Trusted by Clients",
+        "number": "3",
+        "content": "FutureTech SIP is a leader in innovative investment solutions, specializing in Systematic Investment Plans (SIPs). Our mission is to make investing accessible, efficient, and rewarding for all"
+      }
+    ]
+  },
+  "price": {
+    "img": "assets/img/why-choose-us/01.png",
+    "title": "FutureTech Investment Package",
+    "subtitle": "Grab Our Mega Package",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many",
+    "items": [
+      {
+        "price": "3%",
+        "icon": "assets/img/pricing/01.png",
+        "title": "Investon Advanced",
+        "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
+        "features": [
+          "Miximum Deposit ₹99999",
+          "Minimum Deposit ₹100",
+          "Contract termination fee 5%"
+        ]
+      }
+    ]
+  },
+  "pricepage": {
+    "subtitle": "Investon Price",
+    "title": "Grab Our Mega Package",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lore",
+    "items": [
+      {
+        "price": "5.50%",
+        "icon": "assets/img/pricing/01.png",
+        "title": "Investon Advanced",
+        "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
+        "features": [
+          "Miximum Deposit $10,00",
+          "Minimum Deposit $10",
+          "Up to 50 Users available"
+        ]
+      },
+      {
+        "price": "5.50%",
+        "icon": "assets/img/pricing/01.png",
+        "title": "Investon Advanced",
+        "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
+        "features": [
+          "Miximum Deposit $10,00",
+          "Minimum Deposit $10",
+          "Up to 50 Users available"
+        ]
+      },
+      {
+        "price": "5.50%",
+        "icon": "assets/img/pricing/01.png",
+        "title": "Investon Advanced",
+        "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
+        "features": [
+          "Miximum Deposit $10,00",
+          "Minimum Deposit $10",
+          "Up to 50 Users available"
+        ]
+      }
+    ]
+  },
+  "history": {
+    "subtitle": "FutureTech History",
+    "title": "Know More ",
+    "content": "Rapid growth driven by client satisfaction and exceptional investment returns. Our reputation is built on trust and consistent performance.",
+    "img": "assets/img/history/01.png",
+    "items": [
+      {
+        "title": "Every week Investor logins",
+        "number": "50"
+      },
+      {
+        "title": "Every Month Withdrawals",
+        "number": "25"
+      },
+      {
+        "title": "Total Users",
+        "number": "120"
+      }
+    ]
+  },
+  "team": {
+    "subtitle": "Top Investors",
+    "title": "Fast Smart think",
+    "content": "The esteemed investors on our platform, recognized for their consistent and exceptional investment performance",
+    "items": [
+      {
+        "img": "assets/img/team/c1.jpg",
+        "name": "Neeraj Niranjan"
+      },
+      {
+        "img": "assets/img/team/c2.png",
+        "name": "Samyukth Jain"
+      },
+      {
+        "img": "assets/img/team/c3.png",
+        "name": "Vinay Baddi"
+      },
+      {
+        "img": "assets/img/team/c4.png",
+        "name": "Narayan Baddi"
+      }
+    ]
+  },
+  "newsslider": {
+    "items": [
+      {
+        "img": "assets/img/news-slider/01.png"
+      },
+      {
+        "img": "assets/img/news-slider/02.png"
+      },
+      {
+        "img": "assets/img/news-slider/03.png"
+      },
+      {
+        "img": "assets/img/news-slider/04.png"
+      },
+      {
+        "img": "assets/img/news-slider/01.png"
+      },
+      {
+        "img": "assets/img/news-slider/02.png"
+      },
+      {
+        "img": "assets/img/news-slider/03.png"
+      },
+      {
+        "img": "assets/img/news-slider/04.png"
+      }
+    ]
+  },
+  "latestpost": {
+    "items": [
+      {
+        "img": "assets/img/blog/01.png",
+        "title": "Grab Our Mega Package",
+        "content": "Sed et ultricies metus.luctuslectus ut purus va facilisis. Nulla ut enimlutpat non eros pretium sed do eiusmod tem",
+        "author": "Author",
+        "url": "/blog-details",
+        "date": "25 May 2019"
+      },
+      {
+        "img": "assets/img/blog/02.png",
+        "title": "How Do Digital Services",
+        "content": "Sed et ultricies metus.luctuslectus ut purus va facilisis. Nulla ut enimlutpat non eros pretium sed do eiusmod tem",
+        "author": "Author",
+        "url": "/blog-details",
+        "date": "25 May 2019"
+      },
+      {
+        "img": "assets/img/blog/03.png",
+        "title": "How Do Digital Services",
+        "content": "Sed et ultricies metus.luctuslectus ut purus va facilisis. Nulla ut enimlutpat non eros pretium sed do eiusmod tem",
+        "author": "Author",
+        "url": "/blog-details",
+        "date": "25 May 2019"
+      }
+    ]
+  },
+  "profit": {
+    "title": "We Accepted these Payment Method",
+    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+    "items": [
+      {
+        "img": "assets/img/payment-card/01.jpg"
+      },
+      {
+        "img": "assets/img/payment-card/02.png"
+      },
+      {
+        "img": "assets/img/payment-card/03.jpg"
+      },
+      {
+        "img": "assets/img/payment-card/04.png"
+      }
+    ]
+  },
+  "client": {
+    "items": [
+      {
+        "subtitle": "Top Clients",
+        "title": "Investor's Feedbacks",
+        "name": "Neeraj Niranjan",
+        "number": "1",
+        "designation": "Investor",
+        "img": "assets/img/team/c1.jpg",
+        "content": "I've been using the SIP platform for over a year now, and the results have been fantastic. The user-friendly interface and real-time updates keep me informed and confident in my investments. Highly recommend!,"
+      },
+      {
+        "subtitle": "Top Clients",
+        "title": "What Say Investors",
+        "name": "Samyukth Jain",
+        "number": "2",
+        "designation": "Investor",
+        "img": "assets/img/team/c2.png",
+        "content": "FutureTech SIP has transformed my approach to investing. The tailored strategies and advanced technology ensure my portfolio is optimized for the best returns. It's a reliable and efficient service,"
+      },
+      {
+        "subtitle": "Top Clients",
+        "title": "What Say Investors",
+        "name": "Vinay Baddi",
+        "number": "3",
+        "designation": "Investor",
+        "img": "assets/img/team/c3.png",
+        "content": "The SIP platform is intuitive and easy to use, even for someone like me who's new to investing. The support team is always helpful and responsive, making the entire process smooth and stress-free,"
+      },
+      {
+        "subtitle": "Top Clients",
+        "title": "What Say Investors",
+        "name": "Narayan Baddi",
+        "number": "4",
+        "designation": "Investor",
+        "img": "assets/img/team/c4.png",
+        "content": "Investing with FutureTech SIP has been a game-changer. The transparency and comprehensive tools available make managing my investments straightforward and effective. I'm very pleased with the growth I've seen,"
+      }
+    ]
+  },
+  "brand": {
+    "items": [
+      {
+        "img": "assets/img/partner/03.png",
+        "url": "#"
+      },
+      {
+        "img": "assets/img/partner/02.png",
+        "url": "#"
+      },
+      {
+        "img": "assets/img/partner/03.png",
+        "url": "#"
+      },
+      {
+        "img": "assets/img/partner/04.png",
+        "url": "#"
+      },
+      {
+        "img": "assets/img/partner/03.png",
+        "url": "#"
+      }
+    ]
+  },
+  "error": {
+    "img": "assets/img/error.jpg",
+    "title": "Oopps! Page Not Found",
+    "content": "we can’t seem to find the page you’re looking for. Try going back to the previous page or see our Help Center for more information"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "content": "Put your investing ideas into action with full range of investments. Enjoy real benefits and rewards on your accrue investing.",
+    "leftfaq": [
+      {
+        "title": " What is investment and its objectives?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": " What is the objective of a portfolio?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": " What are the main features of investment services?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": "What is portfolio management and its objectives?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      }
+    ],
+    "rightfaq": [
+      {
+        "title": "What is investment process?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": " What about loan programs?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": "What is the nature of investment?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      },
+      {
+        "title": "What is the scope of investment?",
+        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+      }
+    ]
+  }
+}

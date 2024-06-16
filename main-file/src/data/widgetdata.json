@@ -1,0 +1,111 @@
+{
+"latestposts": {
+    "title": "Recent Posts",
+    "listitems": [
+        {
+          "title":"Grab Our Mega Package",
+          "image": "assets/img/blog/p-01.png",
+          "date": "February 10, 2020",
+          "url":"/blog-details"
+        },
+        {
+          "title":"How Do Digital Services",
+          "image": "assets/img/blog/p-02.png",
+          "date": "February 10, 2020",
+          "url":"/blog-details"
+        },
+        {
+          "title":"10 Amazing Service Hacks",
+          "image": "assets/img/blog/p-03.png",
+          "date": "February 10, 2020",
+          "url":"/blog-details"
+        },
+        {
+          "title":"10 Guilt Free Service Tips",
+          "image": "assets/img/blog/p-04.png",
+          "date": "February 10, 2020",
+          "url":"/blog-details",
+          "class":"mb-0 pb-0"
+        }
+        
+    ]
+  },
+  "categorywidget": {
+    "title": "Categories",
+    "listitems": [
+        {
+          "cat":"Financial Planning",
+          "number":"37",
+          "url":"/blog"
+        },
+        {
+          "cat":"Cash Investment",
+          "number":"10",
+          "url":"/blog"
+        },
+        {
+          "cat":"Financial Consultancy",
+          "number":"09",
+          "url":"/blog"
+        },
+        {
+          "cat":"Investment Planning ",
+          "number":"08",
+          "url":"/blog"
+        },
+        {
+          "cat":"Business Development",
+          "number":"05",
+          "url":"/blog"
+        },
+        {
+          "cat":"Corporate Marketing",
+          "number":"05",
+          "url":"/blog"
+        }
+    ]
+  },
+  "tagscloud": {
+    "title": "Tags",
+    "listitems": [
+        {
+          "title":"Investment",
+          "url":"/blog"
+        },
+        {
+          "title":"Finance",
+          "url":"/blog"
+        },
+        {
+          "title":"Business",
+          "url":"/blog"
+        },
+        {
+          "title":"Corporate",
+          "url":"/blog"
+        },
+        {
+          "title":"Planning",
+          "url":"/blog"
+        },
+        {
+          "title":"Marketing",
+          "url":"/blog"
+        },
+        {
+          "title":"Advisor",
+          "url":"/blog"
+        },
+        {
+          "title":"Recent",
+          "url":"/blog"
+        },
+        {
+          "title":"Cash",
+          "url":"/blog"
+        }
+
+    ]
+  }
+
+}

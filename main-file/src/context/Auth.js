@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 import axios from "axios";
 
 const AuthContext = createContext();
-export const baseUrl = "http://localhost:8000/api/";
+export const baseUrl = "https://20.244.34.68:8000/api/";
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

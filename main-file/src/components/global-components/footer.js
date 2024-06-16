@@ -105,7 +105,7 @@ class Footer_v1 extends Component {
                 </ul>
               </div>
               <div className="col-lg-5 text-center text-lg-right">
-                <p className="copyright">{footerdata.copyrighttext}</p>
+                <p className="copyright">Future Tech 2024</p>
               </div>
             </div>
           </div>

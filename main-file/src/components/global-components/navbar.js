@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
           <div className="logo">
             <Link to="/">
-              <h4 className="text-black">Future Tech</h4>
+              <img src="/logo.png" className="logoImg" alt="" />
             </Link>
           </div>
           <div className="collapse navbar-collapse" id="investon_main_menu">

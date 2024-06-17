@@ -5864,6 +5864,17 @@ Blog Details Page
 @media screen and (max-width: 767px) {
 
 
+
+  .logoImg{
+    height: 40px !important;
+    width: 80px !important;
+  }
+
+  .toggle-btn{
+margin-top: 5px !important;
+  }
+
+
   .container_2 .section-title .title {
     font-size: 18px;
     font-weight: 800;
@@ -6597,4 +6608,11 @@ Blog Details Page
     .container_2 button {
       cursor: pointer;
       padding: 4px 0;
+    }
+
+
+
+    .logoImg{
+      height: 70px;
+      width: 80%;
     }

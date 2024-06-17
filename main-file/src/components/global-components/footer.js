@@ -25,7 +25,18 @@ class Footer_v1 extends Component {
               <div className="col-lg-4 col-md-6 col-sm-8">
                 <div className="footer-widget widget widget-about-us">
                   <Link to="/" className="footer-logo">
-                    <h4 className="text-white">Future Tech</h4>
+                    <h4 className="text-white">
+                      FUTURE{" "}
+                      <span
+                        style={{
+                          fontWeight: 700,
+                          fontFamily: "sans-serif",
+                          color: "#ff007a"
+                        }}
+                      >
+                        TECH
+                      </span>
+                    </h4>
                   </Link>
                   <p>{footerdata.footertext}</p>
                   <ul className="footer-social social-area-2">

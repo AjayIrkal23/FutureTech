@@ -100,8 +100,11 @@ const Navbar = () => {
               </li>
               {user ? (
                 isUserPanel ? (
-                  <li onClick={handleLogout} style={{ cursor: "pointer" }}>
-                    Logout
+                  <li
+                    onClick={handleLogout}
+                    style={{ cursor: "pointer", color: "white" }}
+                  >
+                    <Link to="/">Logout</Link>
                   </li>
                 ) : (
                   <li>

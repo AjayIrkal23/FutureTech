@@ -113,7 +113,7 @@ class Root extends Component {
   render() {
     return (
       <Router>
-        <Toaster />
+        <Toaster containerClassName="custom-toaster" position="bottom-center" />
         <Router basename="/">
           <div>
             <AuthProvider>

@@ -15,29 +15,33 @@ function RegisterComponent() {
   const history = useHistory();
 
   const onSubmit = async (data) => {
-    try {
-      const response = await axios
-        .post(`${baseUrl}user/register`, {
-          username: data.username,
-          email: data.email,
-          nakedpassword: data.password,
-          phoneNumber: data.phoneNumber,
-          fullName: data.fullName
-        })
-        .then((status) => {
-          toast.success("Registration successful. Please login.");
-          history.push("/login");
-        })
-        .catch((status) => {
-          if (status.response.data.Status === "Duplicate") {
-            toast.error("User Exists. Please login.");
+    if (data.password.length > 6) {
+      try {
+        const response = await axios
+          .post(`${baseUrl}user/register`, {
+            username: data.username,
+            email: data.email,
+            nakedpassword: data.password,
+            phoneNumber: data.phoneNumber,
+            fullName: data.fullName
+          })
+          .then((status) => {
+            toast.success("Registration successful. Please login.");
             history.push("/login");
-          } else {
-            toast.error(status.response.data.Status);
-          }
-        });
-    } catch (error) {
-      console.error("An error occurred during registration: ", error);
+          })
+          .catch((status) => {
+            if (status.response.data.Status === "Duplicate") {
+              toast.error("User Exists. Please login.");
+              history.push("/login");
+            } else {
+              toast.error(status.response.data.Status);
+            }
+          });
+      } catch (error) {
+        console.error("An error occurred during registration: ", error);
+      }
+    } else {
+      toast.error("Weak Password");
     }
   };
 

@@ -1045,6 +1045,15 @@ ul {
     z-index: 9999 !important;
   }
 
+
+  .custom_toaster_PC_Hidden{
+    z-index: 9999 !important;
+    visibility:hidden;
+  }
+
+
+
+
 .preloader-inner {
   position: fixed;
   visibility:hidden;
@@ -3089,6 +3098,20 @@ User Panel Page
 
 /* medium tablet layout 599px */
 @media only screen and (max-width: 575px) {
+
+  
+  .custom_toaster_PC_Hidden{
+    z-index: 9999 !important;
+    visibility:visible;
+  }
+
+  .custom-toaster {
+    z-index: 9999 !important;
+    visibility:hidden;
+  }
+
+
+
   .mobile-logo a img {
     width: 84px; }
   .nav-style-01.navbar-area-fixed .nav-container {

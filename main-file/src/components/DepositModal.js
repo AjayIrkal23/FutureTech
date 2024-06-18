@@ -57,6 +57,8 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
   const [step, setStep] = useState(1);
   const [amount, setAmount] = useState("");
   const [investmentPeriod, setInvestmentPeriod] = useState("");
+  const [futureValue, setFutureValue] = useState("");
+  const [totalInvestment, setTotalInvestment] = useState("");
 
   useEffect(() => {
     if (userInfo?.firstDeposit && userInfo?.firstDeposit !== "0") {
@@ -74,6 +76,24 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
   const handleInvestmentPeriodChange = (e) => {
     setInvestmentPeriod(e.target.value);
   };
+
+  const calculateSIP = () => {
+    const rateOfReturn = 36;
+    const monthlyRate = rateOfReturn / 100 / 12;
+    const totalMonths = investmentPeriod * 12;
+    const totalInvestment = amount * totalMonths;
+    const futureValue =
+      amount *
+      ((Math.pow(1 + monthlyRate, totalMonths) - 1) / monthlyRate) *
+      (1 + monthlyRate);
+
+    setTotalInvestment(totalInvestment.toFixed(2));
+    setFutureValue(futureValue.toFixed(2));
+  };
+
+  useEffect(() => {
+    calculateSIP();
+  }, [amount]);
 
   const handleAmountSubmit = async () => {
     try {
@@ -176,6 +196,14 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
                 userInfo?.investmentPeriod && userInfo?.investmentPeriod !== "0"
               }
             />
+            {futureValue && totalInvestment && (
+              <div className="result mt-4">
+                <h4>Total Investment:</h4>
+                <p>₹ {totalInvestment}</p>
+                <h4>Future Value:</h4>
+                <p>₹ {futureValue}</p>
+              </div>
+            )}
             <Button
               variant="contained"
               className={classes.button}
@@ -190,6 +218,15 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
           <>
             <Typography variant="h6" id="deposit-modal-title" gutterBottom>
               Scan to Deposit
+            </Typography>
+
+            <Typography
+              variant="h7"
+              sx={{ marginBottom: "5px" }}
+              id="deposit-modal-title"
+              gutterBottom
+            >
+              Upi Number - 7338506103
             </Typography>
             <img
               src="/payment.png" // Replace with your UPI scanner image URL

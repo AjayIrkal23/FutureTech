@@ -20,9 +20,9 @@ class ContactInfo extends Component {
                   <h5 className="subtitle">Feel Free To Conatct Us</h5>
                   <h3 className="title">Contact Us</h3>
                   <p>
-                    Many desktop publishing packages and web page editors now
-                    use Lorem Ipsum as their default model text, and a search
-                    for 'lorem ipsum' will uncover many web
+                    Feel free to reach out to us with any questions or concerns.
+                    Our team is here to assist you. Simply contact us, and we'll
+                    get back to you as soon as possible.
                   </p>
                 </div>
               </div>

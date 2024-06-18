@@ -212,7 +212,7 @@
     "img": "assets/img/why-choose-us/01.png",
     "title": "FutureTech Investment Package",
     "subtitle": "Grab Our Mega Package",
-    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many",
+    "content": "Enjoy secure and seamless transactions with our FutureTech Investment Package. Choose from a variety of popular payment methods for a hassle-free experience.",
     "items": [
       {
         "price": "3%",
@@ -220,7 +220,7 @@
         "title": "Investon Advanced",
         "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
         "features": [
-          "Miximum Deposit ₹99999",
+          "Minimum Deposit ₹99999",
           "Minimum Deposit ₹100",
           "Contract termination fee 5%"
         ]
@@ -368,7 +368,7 @@
   },
   "profit": {
     "title": "We Accepted these Payment Method",
-    "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+    "content": "Many popular payment methods are available, making transactions seamless and secure. Below are some of the options you can use for hassle-free payments.",
     "items": [
       {
         "img": "assets/img/payment-card/01.jpg"
@@ -458,38 +458,38 @@
     "content": "Put your investing ideas into action with full range of investments. Enjoy real benefits and rewards on your accrue investing.",
     "leftfaq": [
       {
-        "title": " What is investment and its objectives?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "How to Invest?",
+        "content": "To invest with us, simply follow these steps: (1) Register your account, (2) Login securely, (3) Deposit funds, (4) Wait for confirmation, and (5) Enjoy your gains."
       },
       {
-        "title": " What is the objective of a portfolio?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": " How much gains do we provide?",
+        "content": "We provide a 3% gain per month, starting from the day you make a successful deposit."
       },
       {
-        "title": " What are the main features of investment services?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "How long does it takes the deposit to reflect in my account?",
+        "content": "Your balance will be updated within 24Hrs of your deposit."
       },
       {
-        "title": "What is portfolio management and its objectives?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "How to deposit ?",
+        "content": "Pay the mentioned amount to the provided scanner and our team will confirm your deposit within 24Hrs."
       }
     ],
     "rightfaq": [
       {
-        "title": "What is investment process?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "Can i deposit in middle of the month?",
+        "content": "No. Deposit button will be disabled after your first deposit. On rest of the days of the month, expect the day of your first time deposit + 5 Days"
       },
       {
-        "title": " What about loan programs?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "Can i withdraw my amount anytime i want?",
+        "content": "Yes. you can withdraw your money whenever you wish to but remember if you break the investment period contract you will be charged 5% of your current balance"
       },
       {
-        "title": "What is the nature of investment?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": ": How long will it take for the money to be credited to my account after a withdrawal",
+        "content": "The money will be credited to your account within 24 hours after a successful withdrawal request."
       },
       {
-        "title": "What is the scope of investment?",
-        "content": "An investment objective, in regard to personal financial planning, is the purpose a particular portfolio serves for the individual's or the investment advisory client's financial needs. An investment objective can also define how a mutual fund invests its portfolio."
+        "title": "How do i contact support?",
+        "content": "Visit the contact page"
       }
     ]
   }

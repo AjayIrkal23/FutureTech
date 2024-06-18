@@ -1673,7 +1673,9 @@ ul {
   .privacy-area .privacy-image {
     padding-bottom: 30px; }
   .privacy-area .privacy-text {
-    text-align: left !important; }
+    text-align: center !important;
+   
+   }
   .privacy-area .privacy-header {
     padding-bottom: 20px; }
     .privacy-area .privacy-header h3 {
@@ -5866,7 +5868,7 @@ Blog Details Page
 
 
   .logoImg{
-    height: 40px !important;
+    height: 50px !important;
     width: 80px !important;
   }
 

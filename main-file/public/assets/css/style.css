@@ -5898,13 +5898,13 @@ margin-top: 5px !important;
   .navbar-area .nav-container .navbar-collapse {
     top: 44px; }
   .toggle-btn {
-    top: -14px; }
+    top: -8px; }
   .transaction-tab li {
     margin-bottom: 20px !important; }
   .news-slider .owl-nav button {
     top: 43%; }
   .nav-transparent .nav-container .navbar-collapse {
-    top: 64px; }
+    top: 78px; }
   .page-title-area:after {
     display: none; }
   .page-title-area .title {
@@ -5998,7 +5998,7 @@ margin-top: 5px !important;
   .news-slider .owl-nav button.owl-next {
     right: 38%; }
   .nav-transparent .nav-white {
-    padding: 20px 20px 20px 7px; }
+    padding: 10px 10px 10px 7px; }
   .transaction-tab-area {
     padding: 40px 25px; }
   .transaction-tab {
@@ -6615,6 +6615,6 @@ margin-top: 5px !important;
 
 
     .logoImg{
-      height: 70px;
+      height: 80px;
       width: 80%;
     }

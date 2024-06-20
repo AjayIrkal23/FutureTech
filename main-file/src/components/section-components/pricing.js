@@ -60,10 +60,10 @@ class Pricing extends Component {
                                 </li>
                               ))}
                             </ul>
-                            <Link className="btn btn-plus" to="/investment">
+                            <Link className="btn btn-plus" to="/register">
                               <i className="fa fa-plus" />
                             </Link>
-                            <Link className="btn btn-white" to="/investment">
+                            <Link className="btn btn-white" to="/register">
                               Invest Now
                             </Link>
                           </div>

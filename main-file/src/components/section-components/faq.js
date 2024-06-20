@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import sectiondata from "../../data/sections.json";
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Typography
+} from "@material-ui/core";
 import parse from "html-react-parser";
-
+import sectiondata from "../../data/sections.json"; // Adjust the path as necessary
 class Faq extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
@@ -22,62 +26,38 @@ class Faq extends Component {
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-12">
-              <div className="accordion" id="accordionExample">
-                <div className="row">
-                  <div className="col-xl-6 col-lg-6">
-                    {data.leftfaq.map((item, i) => (
-                      <div key={i} className="card">
-                        <div className="card-header">
-                          <h5 className="mb-0">
-                            <button
-                              className="btn btn-link collapsed"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target={"#collapse4" + i}
-                              aria-expanded="false"
-                              aria-controls="collapseThree"
-                            >
-                              {item.title}
-                            </button>
-                          </h5>
-                        </div>
-                        <div
-                          id={"collapse4" + i}
-                          className="collapse"
-                          data-parent="#accordionExample"
-                        >
-                          <div className="card-body">{item.content}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="col-xl-6 col-lg-6">
-                    {data.rightfaq.map((item, i) => (
-                      <div key={i} className="card">
-                        <div className="card-header">
-                          <h5 className="mb-0">
-                            <button
-                              className="btn btn-link collapsed"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target={"#collapse8" + i}
-                              aria-expanded="false"
-                              aria-controls="collapseThree"
-                            >
-                              {item.title}
-                            </button>
-                          </h5>
-                        </div>
-                        <div
-                          id={"collapse8" + i}
-                          className="collapse"
-                          data-parent="#accordionExample"
-                        >
-                          <div className="card-body">{item.content}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+              <div className="row">
+                <div className="col-xl-6 col-lg-6">
+                  {data.leftfaq.map((item, i) => (
+                    <Accordion key={i}>
+                      <AccordionSummary
+                        expandIcon="+"
+                        aria-controls={`panel${i}-content`}
+                        id={`panel${i}-header`}
+                      >
+                        <Typography>{item.title}</Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        <Typography>{item.content}</Typography>
+                      </AccordionDetails>
+                    </Accordion>
+                  ))}
+                </div>
+                <div className="col-xl-6 col-lg-6">
+                  {data.rightfaq.map((item, i) => (
+                    <Accordion key={i}>
+                      <AccordionSummary
+                        expandIcon="+"
+                        aria-controls={`panel${i + 10}-content`}
+                        id={`panel${i + 10}-header`}
+                      >
+                        <Typography>{item.title}</Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        <Typography>{item.content}</Typography>
+                      </AccordionDetails>
+                    </Accordion>
+                  ))}
                 </div>
               </div>
             </div>

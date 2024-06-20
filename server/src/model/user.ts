@@ -15,6 +15,7 @@ interface IUser extends Document {
 	firstDepositDate: any;
 	startStatic: string;
 	createdAt?: Date; // Add createdAt to the interface
+	didUserDepositSIP: boolean;
 }
 
 const UserSchema: Schema = new Schema(
@@ -31,7 +32,8 @@ const UserSchema: Schema = new Schema(
 		startStatic: { type: String, required: true },
 		totalDeposit: { type: String, required: true },
 		totalWithdraws: { type: String, required: true },
-		phoneNumber: { type: String, required: true, unique: true }
+		phoneNumber: { type: String, required: true, unique: true },
+		didUserDepositSIP: { type: Boolean, required: true }
 	},
 	{ timestamps: true }
 );

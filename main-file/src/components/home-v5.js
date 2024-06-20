@@ -28,11 +28,8 @@ const Home_V1 = () => {
       {/* <Transaction /> */}
       <WhyChooseUs />
       <History />
-      <Investor />
+
       {/* <InvestmentNews /> */}
-
-      <Client />
-
       <Footer />
     </div>
   );

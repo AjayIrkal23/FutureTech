@@ -97,6 +97,7 @@ const updateDepositByTxn = async (req: Request, res: Response, next: NextFunctio
 			if (user) {
 				user.totalDeposit = (parseFloat(user.totalDeposit) + parseFloat(updatedDeposit.paymentAmount)).toFixed(2);
 				user.balance = (parseFloat(user.balance) + parseFloat(updatedDeposit.paymentAmount)).toFixed(2);
+
 				if (user.firstDepositDate == '0' || user.firstDepositDate == null) {
 					user.firstDepositDate = new Date().toDateString();
 				}
@@ -104,6 +105,10 @@ const updateDepositByTxn = async (req: Request, res: Response, next: NextFunctio
 				if (user.startStatic == '0' || user.startStatic == null) {
 					user.startStatic = new Date().toDateString();
 				}
+
+				// Set didUserDepositSIP to true
+				user.didUserDepositSIP = true;
+
 				await user.save();
 			}
 		}

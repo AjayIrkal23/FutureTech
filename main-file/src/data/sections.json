@@ -74,19 +74,19 @@
     "icon": "assets/img/icon/01.png",
     "title": "OPEN AN ACCOUNT",
     "content": "You can open bank accounts entirely online, with no need for signatures or branch ... you can complete most banking tasks online—even opening your account....",
-    "url": "/investment",
+    "url": "/register",
     "items": [
       {
         "icon": "assets/img/icon/02.png",
         "title": "Deposit Amount",
         "content": "Start investing on our platform by making your first deposit",
-        "url": "/investment"
+        "url": "/login"
       },
       {
         "icon": "assets/img/icon/04.png",
         "title": "Earn Interest",
         "content": "Earn 3% everymonth on our platform.... 3% will be credited to your account everymonth from the day you make your first deposit",
-        "url": "/investment"
+        "url": "/login"
       }
     ]
   },
@@ -150,17 +150,17 @@
       {
         "icon": "assets/img/fact/01.png",
         "title": "Total Members",
-        "number": "120"
+        "number": "80"
       },
       {
         "icon": "assets/img/fact/02.png",
         "title": "Total Profits",
-        "number": "101595"
+        "number": "95483"
       },
       {
         "icon": "assets/img/fact/01.png",
         "title": "Total Deposited",
-        "number": "50000"
+        "number": "252010"
       }
     ]
   },
@@ -219,11 +219,7 @@
         "icon": "assets/img/pricing/01.png",
         "title": "Investon Advanced",
         "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
-        "features": [
-          "Minimum Deposit ₹99999",
-          "Minimum Deposit ₹100",
-          "Contract termination fee 5%"
-        ]
+        "features": ["Minimum Deposit ₹100", "Early withdrawal fee - 5%"]
       }
     ]
   },
@@ -275,7 +271,7 @@
     "items": [
       {
         "title": "Every week Investor logins",
-        "number": "50"
+        "number": "65"
       },
       {
         "title": "Every Month Withdrawals",
@@ -283,7 +279,7 @@
       },
       {
         "title": "Total Users",
-        "number": "120"
+        "number": "80"
       }
     ]
   },
@@ -472,6 +468,10 @@
       {
         "title": "How to deposit ?",
         "content": "Pay the mentioned amount to the provided scanner and our team will confirm your deposit within 24Hrs."
+      },
+      {
+        "title": "Will I receive a 3% return every month?",
+        "content": "Yes, you will receive a 3% return each month. To ensure this, please make sure to deposit the current month's amount by the specified date. Your gains will be consistent and regular."
       }
     ],
     "rightfaq": [
@@ -484,12 +484,16 @@
         "content": "Yes. you can withdraw your money whenever you wish to but remember if you break the investment period contract you will be charged 5% of your current balance"
       },
       {
-        "title": ": How long will it take for the money to be credited to my account after a withdrawal",
+        "title": "How long will it take for the money to be credited to my account after a withdrawal",
         "content": "The money will be credited to your account within 24 hours after a successful withdrawal request."
       },
       {
         "title": "How do i contact support?",
         "content": "Visit the contact page"
+      },
+      {
+        "title": "Can I withdraw early or terminate my SIP?",
+        "content": "Yes, you can withdraw early or terminate your Systematic Investment Plan (SIP). However, a contract termination fee of 5% will be charged on your current balance. For example, if your current balance is 100 INR, the termination fee will be 5 INR."
       }
     ]
   }

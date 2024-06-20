@@ -2,12 +2,13 @@ import cron from 'node-cron';
 import User from '../model/user';
 import Deposit from '../model/deposit';
 
+// Function to add monthly interest
 const addMonthlyInterest = async () => {
 	try {
 		const users = await User.find({});
 
 		users.forEach(async (user) => {
-			if (user.firstDeposit) {
+			if (user.firstDeposit && user.didUserDepositSIP) {
 				const firstDepositDate = new Date(user.firstDepositDate);
 				const currentDate = new Date();
 
@@ -20,6 +21,7 @@ const addMonthlyInterest = async () => {
 					user.balance = updatedBalance;
 					user.gainPercentage = updatedGainPercentage;
 					user.firstDepositDate = currentDate;
+					user.didUserDepositSIP = false; // Set the flag to false after adding interest
 
 					await user.save();
 				}

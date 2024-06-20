@@ -19,7 +19,6 @@ const About = () => {
       <AboutDetails />
       <WorkProcess />
       <FanFact />
-      <Client />
       <Footer />
     </div>
   );

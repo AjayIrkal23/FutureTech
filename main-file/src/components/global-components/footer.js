@@ -42,9 +42,9 @@ class Footer_v1 extends Component {
                   <ul className="footer-social social-area-2">
                     {footerdata.socialicon.map((item, i) => (
                       <li key={i}>
-                        <Link to={item.url}>
+                        <a href={item.url}>
                           <i className={item.icon} />
-                        </Link>
+                        </a>
                       </li>
                     ))}
                   </ul>

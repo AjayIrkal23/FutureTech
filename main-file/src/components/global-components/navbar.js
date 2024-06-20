@@ -24,18 +24,13 @@ const Navbar = () => {
             <div className="col-sm-12 text-sm-right text-center pt-2">
               <ul className="topbar-right float-md-right">
                 <li className="topbar-single-info topbar-social-icon p">
-                  <a href="#">
+                  <a href="https://www.facebook.com/share/qWTBHqBp3GJ1kCXB/?mibextid=qi2Omg">
                     <i className="fa fa-facebook-f" />
                   </a>
                 </li>
                 <li className="topbar-single-info topbar-social-icon">
-                  <a href="#">
+                  <a href="https://x.com/FutureTech01inv?t=MvSpetkKgLLQrGdzLZp8EA&s=09">
                     <i className="fa fa-twitter" />
-                  </a>
-                </li>
-                <li className="topbar-single-info topbar-social-icon">
-                  <a href="#">
-                    <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li className="topbar-single-info topbar-social-icon">

@@ -44,6 +44,7 @@ const ProfitArea = () => {
                   type="number"
                   placeholder="₹1000"
                   className="form-control"
+                  style={{ fontFamily: "sans-serif" }}
                   value={monthlyInvestment}
                   onChange={(e) => setMonthlyInvestment(e.target.value)}
                   required
@@ -53,6 +54,7 @@ const ProfitArea = () => {
                 <label>Expected Rate of Return (% p.a):</label>
                 <input
                   type="number"
+                  style={{ fontFamily: "sans-serif" }}
                   placeholder="8"
                   className="form-control"
                   value={rateOfReturn}
@@ -64,6 +66,7 @@ const ProfitArea = () => {
                 <input
                   type="number"
                   placeholder="10"
+                  style={{ fontFamily: "sans-serif" }}
                   className="form-control"
                   value={investmentPeriod}
                   onChange={(e) => setInvestmentPeriod(e.target.value)}
@@ -72,10 +75,15 @@ const ProfitArea = () => {
               </div>
               {futureValue && totalInvestment && (
                 <div className="result mt-4">
-                  <h4>Total Investment:</h4>
-                  <p>₹ {totalInvestment}</p>
-                  <h4>Future Value:</h4>
-                  <p>₹ {futureValue}</p>
+                  <h4 style={{ fontFamily: "sans-serif" }}>
+                    Total Investment:
+                  </h4>
+                  <p style={{ fontFamily: "sans-serif" }}>
+                    {" "}
+                    ₹ {totalInvestment}
+                  </p>
+                  <h4 style={{ fontFamily: "sans-serif" }}>Future Value:</h4>
+                  <p style={{ fontFamily: "sans-serif" }}>₹ {futureValue}</p>
                 </div>
               )}
               <button type="submit" className="btn btn-primary">

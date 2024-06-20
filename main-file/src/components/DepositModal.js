@@ -93,7 +93,7 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
 
   useEffect(() => {
     calculateSIP();
-  }, [amount]);
+  }, [amount, investmentPeriod]);
 
   const handleAmountSubmit = async () => {
     try {

@@ -31,7 +31,7 @@ class WorkProcess extends Component {
                   with access to tailored financial solutions and expert
                   guidance.
                 </p>
-                <Link className="btn btn-plus" to="/investment">
+                <Link className="btn btn-plus" to="/register">
                   <i className="fa fa-plus" />
                 </Link>
               </div>
@@ -53,7 +53,7 @@ class WorkProcess extends Component {
                       Grow your savings with our competitive interest rates.
                       Invest with us and watch your money work for you.
                     </p>
-                    <Link className="btn btn-plus" to="/investment">
+                    <Link className="btn btn-plus" to="/register">
                       <i className="fa fa-plus" />
                     </Link>
                   </div>

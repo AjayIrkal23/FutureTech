@@ -250,7 +250,7 @@ const UserPanel = () => {
                     <li>
                       Registration : {handleCreatedAt(userInfo?.createdAt)}
                     </li>
-                    <li>Last Deposit Request : ₹ {userInfo?.firstDeposit} </li>
+                    <li>SIP Amount : ₹ {userInfo?.firstDeposit} </li>
                     <li>
                       Investment Period Selected : {userInfo?.investmentPeriod}{" "}
                       Year's
@@ -394,7 +394,7 @@ const UserPanel = () => {
                                         }}
                                       >
                                         <Avatar2 name={userInfo?.fullName} />
-                                        <span> {userInfo.fullName}</span>
+                                        <span> {userInfo?.fullName}</span>
                                       </th>
                                       <td className="name"></td>
                                       <td>

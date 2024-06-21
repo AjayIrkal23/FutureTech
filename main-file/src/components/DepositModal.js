@@ -54,7 +54,26 @@ const useStyles = makeStyles((theme) => ({
 const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
   const classes = useStyles();
   const { userInfo, setUserInfo } = useContext(AuthContext);
+  console.log(userInfo, "info");
   const [step, setStep] = useState(1);
+  const currentDate = new Date();
+  const minDate = new Date(userInfo?.firstDepositDate);
+  const maxDate = new Date(userInfo?.firstDepositDate);
+
+  minDate.setDate(minDate.getDate() - 6);
+  maxDate.setDate(maxDate.getDate() - 2);
+
+  minDate.setMonth(minDate.getMonth() + 1);
+  maxDate.setMonth(maxDate.getMonth() + 1);
+
+  let isWithinRange;
+
+  if (userInfo?.balance == 0) {
+    isWithinRange = true;
+  } else {
+    isWithinRange = currentDate >= minDate && currentDate < maxDate;
+  }
+
   const [amount, setAmount] = useState("");
   const [investmentPeriod, setInvestmentPeriod] = useState("");
   const [futureValue, setFutureValue] = useState("");
@@ -76,6 +95,10 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
   const handleInvestmentPeriodChange = (e) => {
     setInvestmentPeriod(e.target.value);
   };
+
+  useEffect(() => {
+    setStep(1);
+  }, [open]);
 
   const calculateSIP = () => {
     const rateOfReturn = 36;
@@ -155,6 +178,8 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
     }
   };
 
+  console.log(isWithinRange, "true");
+
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/payment.png"; // Replace with your UPI scanner image URL
@@ -183,6 +208,9 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
               variant="filled"
               className={classes.textField}
               fullWidth
+              disabled={
+                userInfo?.firstDeposit && userInfo?.firstDeposit !== "0"
+              }
             />
             <TextField
               label="Investment Period (Years)"
@@ -196,6 +224,18 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
                 userInfo?.investmentPeriod && userInfo?.investmentPeriod !== "0"
               }
             />
+            <Typography
+              variant="body2"
+              style={{ fontSize: "11px" }}
+              color="textSecondary"
+              gutterBottom
+            >
+              {userInfo?.balance == "0"
+                ? " The amount and investment period can be chosen once. if your account is activated with an plan you cannot change it back. Contact Support if you want to do so."
+                : isWithinRange
+                ? `Please Deposit the SIP Amount ${userInfo.firstDeposit}/- Only. Any other Amount Deposit will be Reverted Back to your account`
+                : `Next Deposit - ${minDate.toDateString()} - ${maxDate.toDateString()}`}
+            </Typography>
             {futureValue && totalInvestment && (
               <div className="result mt-4">
                 <h4>Total Investment:</h4>
@@ -204,14 +244,25 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
                 <p>₹ {futureValue}</p>
               </div>
             )}
-            <Button
-              variant="contained"
-              className={classes.button}
-              onClick={handleAmountSubmit}
-              fullWidth
-            >
-              Submit
-            </Button>
+            {isWithinRange && !userInfo.didUserDepositSIP ? (
+              <Button
+                variant="contained"
+                className={classes.button}
+                onClick={handleAmountSubmit}
+                fullWidth
+              >
+                Submit
+              </Button>
+            ) : (
+              <Button
+                variant="contained"
+                className={classes.button}
+                disabled
+                fullWidth
+              >
+                Not Allowed
+              </Button>
+            )}
           </>
         )}
         {step === 2 && (
@@ -262,14 +313,17 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
               Deposit might take up to 24 hours to appear in your account
               dashboard. Deposit requests will expire after 3 days.
             </Typography>
-            <Button
-              variant="contained"
-              className={classes.button}
-              onClick={handleClose} // Replace with your submit logic
-              fullWidth
-            >
-              Done
-            </Button>
+
+            {isWithinRange && (
+              <Button
+                variant="contained"
+                className={classes.button}
+                onClick={handleClose} // Replace with your submit logic
+                fullWidth
+              >
+                Done
+              </Button>
+            )}
           </>
         )}
       </Paper>

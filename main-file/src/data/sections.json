@@ -219,7 +219,11 @@
         "icon": "assets/img/pricing/01.png",
         "title": "Investon Advanced",
         "content": "Lorem ipsuelit, sed do eiusmod tempor ofincidid labore et dolore magna",
-        "features": ["Minimum Deposit ₹100", "Early withdrawal fee - 5%"]
+        "features": [
+          "Minimum Deposit ₹100",
+          "Early withdrawal fee - 5%",
+          "3% Everymonth (Read Faq)"
+        ]
       }
     ]
   },

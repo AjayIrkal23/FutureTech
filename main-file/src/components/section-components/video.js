@@ -47,14 +47,14 @@ class Video extends Component {
                   />
                 </div>
                 <h5>
-                  <Link to="/investment">Trusted by Experts</Link>
+                  <Link to="/login">Trusted by Experts</Link>
                 </h5>
                 <p>
                   Our services are highly regarded by industry professionals,
                   ensuring you receive the best investment solutions tailored to
                   your needs.
                 </p>
-                <Link className="btn btn-plus" to="/investment">
+                <Link className="btn btn-plus" to="/login">
                   <i className="fa fa-plus" />
                 </Link>
               </div>
@@ -68,14 +68,14 @@ class Video extends Component {
                   />
                 </div>
                 <h5>
-                  <Link to="/investment">Saving &amp; Investments</Link>
+                  <Link to="/login">Saving &amp; Investments</Link>
                 </h5>
                 <p>
                   We offer tailored saving and investment solutions to help grow
                   your wealth securely and efficiently, ensuring optimal returns
                   and peace of mind.
                 </p>
-                <Link className="btn btn-plus" to="/investment">
+                <Link className="btn btn-plus" to="/login">
                   <i className="fa fa-plus" />
                 </Link>
               </div>

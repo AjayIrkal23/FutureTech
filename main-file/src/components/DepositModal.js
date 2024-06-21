@@ -244,6 +244,7 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
                 <p>₹ {futureValue}</p>
               </div>
             )}
+
             {isWithinRange && !userInfo.didUserDepositSIP ? (
               <Button
                 variant="contained"

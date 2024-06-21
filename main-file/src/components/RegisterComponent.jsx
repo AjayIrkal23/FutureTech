@@ -20,7 +20,7 @@ function RegisterComponent() {
         const response = await axios
           .post(`${baseUrl}user/register`, {
             username: data.username,
-            email: data.email,
+            email: data.email.toLowerCase(),
             nakedpassword: data.password,
             phoneNumber: data.phoneNumber,
             fullName: data.fullName

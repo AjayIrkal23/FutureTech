@@ -17,7 +17,7 @@ function LoginComponent() {
     if (data.password.length > 6) {
       await axios
         .post(`${baseUrl}user/login`, {
-          email: data.username,
+          email: data.username.toLowerCase(),
           nakedpassword: data.password
         })
         .then((resps) => {

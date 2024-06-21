@@ -35,7 +35,7 @@ class VideoBanner extends Component {
                       </p>
                       <div className="btn-wrapper animated fadeInUpBig text-left">
                         <Link to="/login" className="btn btn-basic">
-                          Start Invest
+                          Start Investing
                         </Link>
                         <a
                           href="https://www.youtube.com/watch?v=d0XKtUXgpOw"

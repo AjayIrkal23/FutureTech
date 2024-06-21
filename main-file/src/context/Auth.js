@@ -4,6 +4,7 @@ import axios from "axios";
 
 const AuthContext = createContext();
 export const baseUrl = "https://20.244.34.68:8000/api/";
+export const ajayKey = "loloklol.12A";
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

@@ -60,8 +60,8 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
   const minDate = new Date(userInfo?.firstDepositDate);
   const maxDate = new Date(userInfo?.firstDepositDate);
 
-  minDate.setDate(minDate.getDate() - 6);
-  maxDate.setDate(maxDate.getDate() - 2);
+  minDate.setDate(minDate.getDate() + 2);
+  maxDate.setDate(maxDate.getDate() + 6);
 
   minDate.setMonth(minDate.getMonth() + 1);
   maxDate.setMonth(maxDate.getMonth() + 1);

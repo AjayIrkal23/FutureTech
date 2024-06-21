@@ -271,27 +271,47 @@ const DepositModal = ({ open, handleClose, user, fetchDeposits }) => {
               Scan to Deposit
             </Typography>
 
+            {amount >= 1500 && (
+              <h7
+                variant="h7"
+                className="lineh"
+                sx={{ marginBottom: "5px" }}
+                style={{ fontSize: "12px" }}
+                id="deposit-modal-title"
+              >
+                Please make the payment on mentioned UPI ID and wait for balance
+                to be updated
+              </h7>
+            )}
+
+            <br />
+
             <Typography
               variant="h7"
               sx={{ marginBottom: "5px" }}
               id="deposit-modal-title"
               gutterBottom
             >
-              Upi Number - 7338506103
+              Upi Id - 7338506103@ybl
             </Typography>
-            <img
-              src="/payment.png" // Replace with your UPI scanner image URL
-              alt="UPI Scanner"
-              className={classes.image}
-            />
-            <Button
-              variant="contained"
-              className={classes.button}
-              onClick={handleDownload}
-              fullWidth
-            >
-              Download UPI Scanner
-            </Button>
+            {amount <= 1500 && (
+              <img
+                src="/payment.png" // Replace with your UPI scanner image URL
+                alt="UPI Scanner"
+                className={classes.image}
+              />
+            )}
+            {amount <= 1500 && (
+              <Button
+                variant="contained"
+                className={classes.button}
+                onClick={handleDownload}
+                fullWidth
+              >
+                Download UPI Scanner
+              </Button>
+            )}
+
             <Typography variant="h6" className={classes.amountText}>
               Amount to Pay: ₹{amount}
             </Typography>

@@ -49,7 +49,7 @@ class ContactInfo extends Component {
                     />
                   </div>
                   <h5>E-mail</h5>
-                  <p>katwevaibhav7@gmail.com</p>
+                  <p>Futuretechinvestments16@gmail.com</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -61,7 +61,7 @@ class ContactInfo extends Component {
                     />
                   </div>
                   <h5>Phone</h5>
-                  <p>+91-7338506103</p>
+                  <p>+91 63621-70295</p>
                 </div>
               </div>
             </div>

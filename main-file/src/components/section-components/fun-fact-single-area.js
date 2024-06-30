@@ -20,7 +20,7 @@ class FunFact extends Component {
                   <img src={publicUrl + "assets/img/fact/01.png"} alt="icon" />
                 </div>
                 <h4 className="fact-title">Total Members</h4>
-                <h2 className="counter">120</h2>
+                <h2 className="counter">80</h2>
               </div>
             </div>
             <div className="col-lg-4">
@@ -29,7 +29,7 @@ class FunFact extends Component {
                   <img src={publicUrl + "assets/img/fact/01.png"} alt="icon" />
                 </div>
                 <h4 className="fact-title">Total Deposited</h4>
-                <h2 className="counter">101548</h2>
+                <h2 className="counter">95483</h2>
               </div>
             </div>
             <div className="col-lg-4">
@@ -38,7 +38,7 @@ class FunFact extends Component {
                   <img src={publicUrl + "assets/img/fact/01.png"} alt="icon" />
                 </div>
                 <h4 className="fact-title">Total Profit</h4>
-                <h2 className="counter">80000</h2>
+                <h2 className="counter">252010</h2>
               </div>
             </div>
           </div>
